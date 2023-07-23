@@ -6,9 +6,10 @@
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 20px;
-    height: 95vh;
+    /* height: 95vh; */
     background-color: #FAF9F4;
-    
+  
+    height: 100vh;
     
   }
   
@@ -21,6 +22,7 @@
     .chat-container {
        
       width: 100%;
+     
       
     }
     .chat-input{
