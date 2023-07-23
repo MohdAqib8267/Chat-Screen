@@ -15,7 +15,7 @@ import AttachFileIcon from '@mui/icons-material/AttachFile';
 export default function InputContainer() {
   return (
     <Paper
-    style={{marginTop: "20px",}}
+    style={{marginTop: "0px",}}
       component="form"
       sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: '100%' }}
     >
