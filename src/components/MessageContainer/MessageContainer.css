@@ -1,0 +1,160 @@
+.chat-messages {
+    height: 300px;
+    overflow-y: auto;
+   
+   
+    /* height: 70vh; */
+    height: calc(90vh - 8rem - 2rem);
+
+  
+  }
+  .chat-messages::-webkit-scrollbar{
+    display: none;
+  }
+.chat-body::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+  .chat-body{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+    overflow: scroll;
+    height: 100vh;
+    
+}
+
+
+.send-button{
+    color: white;
+    background: #075E54;
+    padding: 0.5rem;
+    border-radius: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+}
+
+.message {
+ 
+    padding: 0.7rem;
+    border-radius: 0rem 1rem 1rem 1rem;
+    max-width: 28rem;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    background-color: white;
+
+    text-align: start;
+    max-width: 70%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .message>span:nth-child(2){
+    font-size: 0.7rem;
+    color: var(--textColor);
+    align-self: end;
+
+    height: 40%;
+    background-color: rgb(236, 236, 236);
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    flex  :1 ;
+    font-size: 14px;
+    padding: 0px 15px 0px 15px;
+}
+
+.own {
+  align-self: flex-end;
+  border-radius: 1rem 0rem 1rem 1rem;
+  /* background: linear-gradient(98.63deg, #64a674 0%, #64a771 100%); */
+  background: #6161cf;
+  color: white;
+  max-width: 70%;
+  text-align: start;
+  align-self: flex-end;
+  padding: 10px;
+
+}
+
+.chat-sender{
+    display: flex;
+    height: 9vh;
+    background-color: #e6e5e4;
+    align-items: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 2px;
+    width: 100%;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.sender-container{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.chat-sender>div:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+.chat-sender>div:nth-of-type(1)
+{
+    display: flex;
+    background: rgb(233, 233, 233);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    cursor: pointer;
+    height: 2rem;
+}
+.chat-sender>div:nth-of-type(1) .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+    width: 70%;
+    border-radius: 2rem;
+    background: var(--cardColor);
+    border: none;
+    display: flex;
+    position: relative;
+}
+.input-message{
+    width: 100%;
+    border-radius: 2rem;
+    background: var(--cardColor);
+    border: none;
+    display: flex;
+    
+    height: 50%;
+    padding: 15px;
+}
+
+
+
+.chat-bottom{
+    display: flex;
+    
+    align-items: center;
+    padding-right: 10px;
+}
+.sender-img>img{
+  border-radius: 100%;
+}

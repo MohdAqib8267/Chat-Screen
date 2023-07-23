@@ -1,0 +1,26 @@
+.upper{
+    display: flex;
+    justify-content: space-between;
+}
+.chat-header {
+
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 5rem;
+
+  }
+  .lower{
+    display: flex;
+    justify-content: space-between;
+  }
+  .left{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+  }
